@@ -3,7 +3,7 @@
 ## Description
 Written in base lua, should work in all lua projects.
 
-Originally designed for polytopia.
+Originally designed for polytoria.
 
 Multiplies 2 matricies of any size, as long as math permits it.
 ## Usage
@@ -29,3 +29,4 @@ Discord - Gokselgnujd
 
 ## License
 MIT - [license](https://github.com/Gokselgnujd/matrixMultiplicationPolytopia/blob/main/LICENSE)
+
