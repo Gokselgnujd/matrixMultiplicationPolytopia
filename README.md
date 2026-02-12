@@ -1,6 +1,10 @@
 # matrixMultiplication
 
 ## Description
+Written in base lua, should work in all lua projects.
+
+Originally designed for polytopia.
+
 Multiplies 2 matricies of any size, as long as math permits it.
 ## Usage
 ```
@@ -18,4 +22,10 @@ local matrix2 = {
 -- multiply them
 local result = MatrixMultiplication(mat1,mat2)
 ```
+## Additional info
+[Github Repo](https://github.com/Gokselgnujd/matrixMultiplicationPolytopia)
 
+Discord - Gokselgnujd
+
+## License
+MIT - [license](https://github.com/Gokselgnujd/matrixMultiplicationPolytopia/blob/main/LICENSE)
