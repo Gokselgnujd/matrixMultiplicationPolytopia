@@ -1,0 +1,1 @@
+return function(A1,A2) if #A1[1] ~= #A2 then return end local A = #A1[1] local B = #A2[1] for i=1,#A1 do if #A1[i] ~= A then return end end for i=1,#A1 do if #A1[i] ~= B then return end end local R = {} for i = 1, #A1 do R[i] = {} for x=1, #A2[1] do local s = 0 for y=1, #A1[1] do s = s + A1[i][y] * A2[y][x] end R[i][x] = s end end return R end
